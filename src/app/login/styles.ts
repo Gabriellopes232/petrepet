@@ -8,16 +8,16 @@ export const MainContainerStyled = styled(Box)(() => ({
   height: '100vh',
   display: 'flex',
   flexDirection: 'column',
-  justifyContent: 'space-between'
 }))
 
 export const LogoTextContainer = styled(Box)(() => ({
   display: 'flex',
   flexDirection: 'column',
-  justifyContent: 'space-between',
   alignItems: 'flex-start',
   height: '100%',
-  padding: '15px'
+  padding: '15px',
+  position: 'relative',
+  flex: 1
 }))
 
 export const TextContainer = styled(Box)(() => ({
